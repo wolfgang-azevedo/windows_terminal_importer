@@ -1,4 +1,4 @@
-# windows Terminal Importer (PuTTy, KiTTy and SuperPuTTy)
+# Windows Terminal Importer (PuTTy, KiTTy and SuperPuTTy)
 
 This script was created to help session migration from PuTTy, KiTTy and SuperPuTTy to the brand new Microsoft Windows Terminal.
 
@@ -10,8 +10,8 @@ Windows terminal Doc: https://docs.microsoft.com/en-us/windows/terminal/
 
 - System Requirments
 
-    - Latest version of Microsoft Windows
-    - Latest version of Fluent Terminal for Microsoft Windows installed
+    - Latest version of Microsoft Windows 10
+    - Latest version of Microsoft Windows Terminal
     - Python3.7+ (script was developed using Python3.8, but you can run with 3.7x) for Microsoft Windows
 
 - Dependencies, you can run the following command:
@@ -48,3 +48,12 @@ Windows terminal Doc: https://docs.microsoft.com/en-us/windows/terminal/
             super_putty:
             enabled: False
             input_file: 'all_sessions.xml' # Change for your SuperPutty exported sessions XML file
+
+# How to run
+
+- Check requirements
+- Download this repo
+- Configure config.yml with the correct parameters for your setup
+- run the following:
+           
+        $ python main.py
