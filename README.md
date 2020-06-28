@@ -53,7 +53,7 @@ Windows terminal Doc: https://docs.microsoft.com/en-us/windows/terminal/
 
 - Check requirements
 - Download this repo
-- Configure config.yml with the corret parameters for your setup
+- Configure config.yml with the correct parameters for your setup
 - run the following:
            
         $ python main.py
