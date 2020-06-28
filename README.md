@@ -48,3 +48,12 @@ Windows terminal Doc: https://docs.microsoft.com/en-us/windows/terminal/
             super_putty:
             enabled: False
             input_file: 'all_sessions.xml' # Change for your SuperPutty exported sessions XML file
+
+# How to run
+
+- Check requirements
+- Download this repo
+- Configure config.yml with the corret parameters for your setup
+- run the following:
+           
+        $ python main.py
