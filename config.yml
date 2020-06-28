@@ -1,0 +1,33 @@
+---
+#
+# Script to import terminal Sessions from Putty, Kitty or SuperPutty to
+# Microsoft Windows Terminal.
+# Developed by: Wolfgang Azevedo
+# wolfgang@ildt.io
+# https://github.com/wolfgang-azevedo
+# 
+importer:
+  output_dir: 'output' # Define the output path, default is the output folder of the script
+  max_sessions: 500 # Number of sessions to search for Putty or Kitty
+  username: jsnow # Set the default username for the session, if no username or if empty
+  output_method: # Set type of new Windows Terminal session do you want
+    shortcut: False # Will create a shortcut file for each exported session
+    session: True # Will create a new session on settings.json, will appear in Windows Terminal menu
+    settings_json: 'AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json'
+  icons: # you can add more icons for your session, but you're able to select only one...
+    ssh: 'icons\ssh.ico'
+    telnet: 'icons\telnet.ico'
+    database: 'icons\database.ico'
+    cloud: 'icons\cloud.ico'
+    linux: 'icons\linux.ico'
+    windows: 'icons\windows.ico'
+    router: 'icons\router.ico'
+    switch: 'icons\switch.ico'
+  source: # Change chose the source and set True on enabled parameter, you can set multiples
+    putty: 
+      enabled: True
+    kitty: 
+      enabled: False
+    super_putty:
+      enabled: False
+      input_file: 'all_sessions.xml' # Change for your SuperPutty exported sessions XML file
