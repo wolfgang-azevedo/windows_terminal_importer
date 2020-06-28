@@ -10,8 +10,8 @@ Windows terminal Doc: https://docs.microsoft.com/en-us/windows/terminal/
 
 - System Requirments
 
-    - Latest version of Microsoft Windows
-    - Latest version of Fluent Terminal for Microsoft Windows installed
+    - Latest version of Microsoft Windows 10
+    - Latest version of Microsoft Windows Terminal
     - Python3.7+ (script was developed using Python3.8, but you can run with 3.7x) for Microsoft Windows
 
 - Dependencies, you can run the following command:
