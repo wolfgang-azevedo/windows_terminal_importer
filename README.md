@@ -1,4 +1,4 @@
-# windows Terminal Importer (PuTTy, KiTTy and SuperPuTTy)
+# Windows Terminal Importer (PuTTy, KiTTy and SuperPuTTy)
 
 This script was created to help session migration from PuTTy, KiTTy and SuperPuTTy to the brand new Microsoft Windows Terminal.
 
